@@ -5,4 +5,4 @@ echo "deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/ros-a
 sudo apt update
 sudo apt upgrade -y
 sudo apt install ros-galactic-desktop -y
-echo "source /opt/ros/galactic/setup.bash" >> ~/.bashrc
+echo "source /opt/ros/galactic/setup.bash" >> /home/$SUDO_USER/.bashrc
