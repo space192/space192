@@ -26,14 +26,8 @@ mkdir TensorFlow
 cd ~/Documents/TensorFlow
 git clone https://github.com/tensorflow/models.git
 cd ~/Downloads
-wget https://github.com/protocolbuffers/protobuf/releases/download/v21.6/protoc-21.6-linux-x86_64.zip
-sudo apt-get install unzip -y
-sudo unzip protoc-21.6-linux-x86_64.zip -d /opt/protoc-21.6
-rm protoc-21.6-linux-x86_64.zip
-sudo chmod -R 777 /opt/protoc-21.6
-echo "export PATH='/opt/protoc-21.6/bin/:\$PATH'" >> ~/.bashrc
 cd ~/Documents/TensorFlow/models/research
-./opt/protoc-21.6/bin/protoc object_detection/protos/*.proto --python_out=.
+protoc object_detection/protos/*.proto --python_out=.
 cd ~/Downloads
 git clone https://github.com/cocodataset/cocoapi.git
 cd ~/Downloads/cocoapi/PythonAPI
