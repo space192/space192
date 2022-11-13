@@ -5,8 +5,8 @@ git clone https://gitlab.com/arece/arece-msgs.git
 git clone https://gitlab.com/arece/arece-sim.git
 sudo apt-get install python3-pip -y
 pip3 install colcon-common-extensions -U
-export ARECE_MASTER=~/ros2_ws/src/arece-sim
-echo 'export ARECE_MASTER=~/ros2_ws/src/arece-sim/' >> ~/.bashrc
+export ARECE_MASTER=~/ros2_ws/src
+echo 'export ARECE_MASTER=~/ros2_ws/src' >> ~/.bashrc
 sudo apt-get install python3-rosdep -y
 sudo rosdep init
 rosdep update
