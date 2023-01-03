@@ -19,5 +19,3 @@ sudo apt-get install ros-galactic-gazebo-dev
 sudo apt-get install ros-galactic-gazebo-ros
 sudo apt-get install ros-galactic-ackermann-msgs
 colcon build
-
-
