@@ -12,7 +12,12 @@ sudo rosdep init
 rosdep update
 rosdep install --from-paths $ARECE_MASTER --ignore-src -r -y
 cd ~/ros2_ws
-sudo apt install python3-colcon-common-extensions -y
-colcon build
 echo 'source ~/ros2_ws/install/setup.bash' >> ~/.bashrc
 source ~/ros2_ws/install/setup.bash
+sudo apt install python3-colcon-common-extensions -y
+sudo apt-get install ros-galactic-gazebo-dev
+sudo apt-get install ros-galactic-gazebo-ros
+sudo apt-get install ros-galactic-ackermann-msgs
+colcon build
+
+
