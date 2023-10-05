@@ -12,7 +12,7 @@ My main motivation comes from the idea that one day we will become a multiplanet
 
 **Talking about Personal Stuffs:**
 
-- 🚀 I’m currently learning Data Structures and Algorithms on at Baruch College and ECE Paris;
+- 🚀 I’m currently learning Data Science at CentraleSupélec;
 - 📫 How to reach me: arthur.g.fournier@gmail.com;
 
 
