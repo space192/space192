@@ -14,10 +14,3 @@ My main motivation comes from the idea that one day we will become a multiplanet
 
 - 🚀 I’m currently learning Data Science at CentraleSupélec;
 - 📫 How to reach me: arthur.g.fournier@gmail.com;
-
-
-📈 **My GitHub Stats:**
-<p>
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=space192&show_icons=true&theme=radical"/>
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=space192&layout=compact&show_icons=true&theme=radical"/>
-</p>
